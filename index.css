@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: auto;
+    /* align-content: center; */
+    padding: 200px;
+  
+}
+
+   
+
+.major {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    height: 800px;
+    width: 70%;
+    margin: auto;
+}
+.equilibrium{
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.ETH {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.ethereum-48{
+    color: solid hsl(178, 100%, 50%);
+}
+
+.favicon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#favETH{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+justify-content:space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+.avatar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+span{
+    color: aliceblue;
+    font-size: larger;
+}
