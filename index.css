@@ -6,14 +6,11 @@ body {
   
 }
 
-   
-
 .major {
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     padding: 30px;
     align-items: center;
-    height: 800px;
     width: 70%;
     margin: auto;
 }
@@ -31,18 +28,25 @@ h3 {
   font-style: normal;
 }
 
-p {
-    color: hsl(215, 51%, 70%);
+#favETH{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+justify-content:space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
 }
+
 
 .ETH {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
-    
+    gap: 10px;   
 }
+
+
 .ethereum-48{
     color: solid hsl(178, 100%, 50%);
 }
@@ -54,14 +58,13 @@ p {
     align-items: center;
     gap: 10px;
 }
-#favETH{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-justify-content:space-between;
-    border-bottom: 2px solid hsl(215, 32%, 27%);
+
+
+
+p {
+    color: hsl(215, 51%, 70%);
 }
+
 .avatar{
     display: flex;
     flex-wrap: wrap;
@@ -72,4 +75,29 @@ justify-content:space-between;
 span{
     color: aliceblue;
     font-size: larger;
+}
+@media only screen and (max-width: 769px){
+   
+    body {
+        background-color: hsl(217, 54%, 11%);
+        margin:auto;
+       
+    
+    }
+    .major {
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 10px;
+        align-items:center;
+        width: 300px;
+        padding: 30px;
+        margin: auto;
+        
+    }
+
+    
+.equilibrium{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
 }
